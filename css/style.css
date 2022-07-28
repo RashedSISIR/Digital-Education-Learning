@@ -1,0 +1,11 @@
+@media only screen and (max-width:576px){
+    #company{
+        display: none;
+        
+    }
+    .display{
+        flex-direction:column;
+    }
+}
+.banner-img{
+    filter: brightness(60%);}
