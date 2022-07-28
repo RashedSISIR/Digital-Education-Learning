@@ -18,9 +18,12 @@
   </head>
   <body>
     <header class="container">
-      <nav class="container navbar navbar-expand-lg fixed-top bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#"> <img class="w-50" src="" /></a>
+      <!-- nav menu start -->
+      <nav class="navbar navbar-expand-lg bg-light  mb-5">
+        <div class="container-fluid ">
+          <a class="navbar-brand " href="#"
+            ><img class="w-25 " src="./image/edu tech-logopng.png">
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -32,35 +35,38 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent ">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Courses </a>
+                <a class="nav-link" href="#courses">Courses</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Deals </a>
+                <a class="nav-link" href="#deals">Deals</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Success </a>
+                <a class="nav-link" href="#success">Success</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About </a>
+                <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Register </a>
+                <a class="nav-link" href="#">Register</a>
               </li>
             </ul>
+            <form>
+              <button class="btn btn-outline-primary" type="submit">
+                Register
+              </button>
+            </form>
           </div>
         </div>
-        <div>
-          <button type="button" class="btn btn-outline-info">Register</button>
-        </div>
       </nav>
+      <!-- nav menu end  -->
       <!-- slider start -->
-      <section class="pt-5">
+      <section class=" mb-5">
         <div
           id="carouselExampleCaptions"
           class="carousel slide"
@@ -92,7 +98,7 @@
             <div class="carousel-item active">
               <img
                 src="./image/banner image/banner-1.jpg"
-                class="d-block w-100"
+                class="d-block w-100 "
                 alt="..."
               />
               <div class="carousel-caption d-none d-md-block pb-5">
@@ -168,150 +174,98 @@
       <!-- slider end  -->
     </header>
     <!-- main section start -->
-    <main class="container mt-5">
+    <main class="container mt-5 mb-5">
       <!-- courses section start  -->
-      <div class="row">
-        <div class="text-center mb-5">
-          <h1>Discover Our Popular Courses</h1>
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout
-          </p>
-        </div>
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="./image/course/course-1.png"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card.
-                </p>
-                <p class="text-info fs-1">Price : 20$</p>
+      <section class="container mt-5 mb-5">
+        <div class="row row-cols-lg-2 row-cols-12 gy-4">
+          <div class="col p-3">
+            <div class="card">
+              <div class="d-flex display">
+                <img src="./image/course/course-1.png" alt="">
+              <div class="p-3">
+                <h3 class="fw-bold">Fundamental Of UI/UX Design</h3>
+                <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                <p class="text-primary fw-bold h3">Price: 20$</p>
+              </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="./image/course/course-2.png"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Javascript Basic to advanced</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card.
-                </p>
-                <p class="text-info fs-1">Price : 25$</p>
+           </div>
+          <div class="col p-3">
+            <div class="card">
+              <div class="d-flex display">
+                <img src="./image/course/course-2.png" alt="">
+              <div class="p-3">
+                <h3 class="fw-bold">Javascript Basic to advanced Learning</h3>
+                <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                <p class="text-primary fw-bold h3">Price: 20$</p>
+              </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="./image/course/course-3.png"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Fullstack Web Development</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card..
-                </p>
-                <p class="text-info fs-1">Price : 23$</p>
+           </div>
+          <div class="col p-3">
+            <div class="card">
+              <div class="d-flex display">
+                <img src="./image/course/course-3.png" alt="">
+              <div class="p-3">
+                <h3 class="fw-bold">Fullstack Web Development</h3>
+                <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                <p class="text-primary fw-bold h3">Price: 20$</p>
+              </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="./image/course/course-4.png"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Digital Marketing</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card.
-                </p>
-                <p class="text-info fs-1">Price : 26$</p>
+           </div>
+          <div class="col p-3">
+            <div class="card">
+              <div class="d-flex display">
+                <img src="./image/course/course-4.png" alt="">
+              <div class="p-3">
+                <h3 class="fw-bold">Digital Marketing</h3>
+                <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                <p class="text-primary fw-bold h3">Price: 20$</p>
+              </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="./image/course/course-5.png"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Photography Basic Rules</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card.
-                </p>
-                <p class="text-info fs-1">Price : 15$</p>
+           </div>
+          <div class="col p-3">
+            <div class="card">
+              <div class="d-flex display">
+                <img src="./image/course/course-5.png" alt="">
+              <div class="p-3">
+                <h3 class="fw-bold">Photography Basic Rules</h3>
+                <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                <p class="text-primary fw-bold h3">Price: 20$</p>
+              </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="./image/course/course-6.png"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Motion Graphics</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card.
-                </p>
-                <p class="text-info fs-1">Price : 40$</p>
+           </div>
+          <div class="col p-3">
+            <div class="card">
+              <div class="d-flex display">
+                <img src="./image/course/course-6.png" alt="">
+              <div class="p-3">
+                <h3 class="fw-bold">Motion Graphics</h3>
+                <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
+                <p class="text-primary fw-bold h3">Price: 15$</p>
+              </div>
               </div>
             </div>
-          </div>
+           </div>
+           </div>
+      
+
+
+
+        <div class="text-center mt-5 mb-5">
+          <button class="btn btn-outline-primary bg-primary text-light ps-5 pe-5 pt-3 pb-3">
+            See More Courses
+          </button>
         </div>
-      </div>
-      <div class="text-center pt-5 pb-5">
-        <button type="button" class="btn btn-primary">See More Courses</button>
-      </div>
+
+       </section>
       <!-- courses section end  -->
 
       <!-- warker section start  -->
-      <section class="pb-5">
+      <section class="mt-5 mb-5">
         <div class="card mb-3 border-0" style="max-width: 100%">
           <div class="row g-0">
             <div class="col-md-4">
@@ -376,29 +330,64 @@
       </section>
       <!-- warker section end  -->
       <!-- register  section start  -->
-      <section class="mt-5 mb-5">
-        <div class="bg-primary d-flex p-5 m-5 justify-content-between rounded">
-          <div
-            class="d-flex flex-column justify-content-center align-self-center text-light"
-          >
-            <h1>Ready to join?</h1>
-            <p class="pt-5">
+      <section class="container bg-primary mt-5 mb-5 p-5" id="success">
+        <div class="row">
+          <div class="col-lg-6 text-justify">
+            <h1 class="text-white">Ready to join?</h1>
+            <p class="text-white">
               It is a long established fact that a reader will be distracted by
-              the <br />readable content of a page when looking at its layout
+              the readable content of a page when looking at its layout.
             </p>
           </div>
-          <div
-            class="d-flex flex-column justify-content-center align-self-center"
-          >
+          <div class="col-lg-6 text-center">
+           
             <button
               type="button"
-              class="btn btn-primary bg-light text-primary px-3"
-              data-toggle="button"
-              aria-pressed="false"
-              autocomplete="off"
+              class="btn btn-primary bg-light text-primary mt-5"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
             >
               Register Now
             </button>
+
+            <!-- Modal start -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <a href="#"><i class="fa-solid fa-triangle-exclamation p-3 text-warning fs-1"></i></a>
+                    <h3 class="modal-title" id="exampleModalLabel">
+                      Save Before Leaving ?
+                    </h3>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div >
+                  <div class="modal-body">if you leave,any changes you've made will not be saved.</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-danger"">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -707,6 +696,7 @@
         </div>
       </section>
       <!-- Frequently Questions end  -->
+      <!-- company logo section start  -->
       <section class="mt-5 mb-5">
         <div class="text-center mt-5 mb-5">
           <h1>Trusted by over 800+ companies</h1>
@@ -727,6 +717,7 @@
 
         </div>
       </section>
+      <!-- company logo section end  -->
 
     </main>
     <!-- main section end  -->
@@ -736,4 +727,54 @@
       crossorigin="anonymous"
     ></script>
   </body>
+  <footer class="bg-dark text-center text-white">
+    <div class="pt-5 pb-5">
+      <h1>Edu Tech</h1>
+      <p>ffice 41, Zawaya Buildin, Ghala Muscat,</p>
+      <p>Privacy Ploicy | Terms of use</p>
+    </div>
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 </html>
